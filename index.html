@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<div id="container">
+		<div id="body">
+			<h1><strong><em>Cool Calculator</em></strong></h1>
+		</div>
+		<div id="body2">
+			<h1><strong><em>Easy to use</em></strong></h1>
+		</div>
+	
+	
+	<form name="frm">
+<input name="result" style="width:265px">
+	
+<br/><br/>
+<input type="button" value="1" name="1" onclick="run1()" style="width:65px">
+<input type="button" value="2" name="2" onclick="run2()" style="width:65px">
+<input type="button" value="3" name="3" onclick="run3()" style="width:65px">
+<input type="button" value="+" name="plus" onclick="runplus()" style="width:65px">
+</br>
+</br>
+<input type="button" value="4" name="4" onclick="run4()" style="width:65px">
+<input type="button" value="5" name="5" onclick="run5()" style="width:65px">
+<input type="button" value="6" name="6" onclick="run6()" style="width:65px">
+<input type="button" value="-" name="rest" onclick="runrest()" style="width:65px">
+</br>
+</br>
+<input type="button" value="7" name="7" onclick="run7()" style="width:65px">
+<input type="button" value="8" name="8" onclick="run8()" style="width:65px">
+<input type="button" value="9" name="9" onclick="run9()" style="width:65px">
+<input type="button" value="*" name="multi" onclick="runmulti()" style="width:65px">
+</br>
+</br>
+<input type="button" value="c" name="clear" onclick="runclear()" style="width:65px">
+<input type="button" value="0" name="0" onclick="run0()" style="width:65px">
+<input type="button" value="." name="dec" onclick="rundec()" style="width:65px">
+<input type="button" value="=" name="cal" onclick="evalu()" style="width:65px">
+	</div>
+	</form>
+<script>
+function run1(){
+	document.frm.result.value +="1";
+}
+function run2(){
+	document.frm.result.value +="2";
+}
+function run3(){
+	document.frm.result.value +="3";
+}
+function runplus(){
+	document.frm.result.value +="+";
+}
+function run4(){
+	document.frm.result.value +="4";
+}
+function run5(){
+	document.frm.result.value +="5";
+}
+function run6(){
+	document.frm.result.value +="6";
+}
+function runrest(){
+	document.frm.result.value +="-";
+}
+function run7(){
+	document.frm.result.value +="7";
+}
+function run8(){
+	document.frm.result.value +="8";
+}
+function run9(){
+	document.frm.result.value +="9";
+}
+function runmulti(){
+	document.frm.result.value +="*";
+}
+function runclear(){
+	frm.reset();
+}
+function run0(){
+	document.frm.result.value +="0";
+}
+function rundec(){
+	document.frm.result.value +=".";
+}
+
+function evalu(){
+	var  evalo = eval(document.frm.result.value)
+	document.frm.result.value = evalo;
+}
+</script>
+
+</html>

@@ -1,0 +1,31 @@
+#container{
+    display:inline-block;
+    margin-left: 700px;
+    margin-top: 220px;
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    background-color: green;
+    border-color: yellow;
+    position: absolute;
+    
+}
+form{
+    width: 500px;
+    height:500px; 
+    position: relative;
+    margin-top: 166.66px;
+    margin-left: 116.66px;
+}
+#body{
+    position: absolute;
+    margin-top: 96.66px;
+    margin-left: 145px;
+    color: white;
+}
+#body2{
+    position: absolute;
+    margin-top: 336.66px;
+    margin-left: 175px;
+    color: #ccc333;
+}
